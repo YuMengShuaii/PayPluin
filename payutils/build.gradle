@@ -42,19 +42,17 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile files('libs/alipaysdk.jar')
-    compile files('libs/alipaysecsdk.jar')
-    compile files('libs/alipayutdid.jar')
     compile files('libs/libammsdk.jar')
     compile files('libs/UPPayAssistEx.jar')
     compile files('libs/UPPayPluginExPro.jar')
     compile files('libs/org.apache.http.legacy.jar')
+    compile files('libs/alipaySdk-20170922.jar')
 }
 publish {
     userOrg = 'geamtear'      //bintray注册的用户名
     groupId = 'com.enation.geamtear.pay'         //compile引用时的第1部分groupId
     artifactId = 'payutils'     //compile引用时的第2部分项目名
-    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
+    publishVersion = '1.0.1'    //compile引用时的第3部分版本号
     desc = 'This is a netutils'
     website = 'https://github.com/YuMengShuaii'
 }
